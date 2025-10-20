@@ -162,7 +162,7 @@ export function AlgorithmPanel({ gridState, runState, setRunState, onExecution }
               <button
                 key={h}
                 onClick={() => setRunState({ ...runState, heuristic: h })}
-                className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
+                className={`px-3 py-2 rounded-lg text-[10px] font-medium transition-colors ${
                   runState.heuristic === h
                     ? "bg-accent text-accent-foreground"
                     : "bg-muted text-muted-foreground hover:bg-muted/80"

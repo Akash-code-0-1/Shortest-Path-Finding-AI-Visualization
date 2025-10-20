@@ -15,14 +15,11 @@ export function Header() {
 
   return (
     <>
-      <header className="border-b border-border bg-card/50 backdrop-blur-sm sticky top-0 z-50">
+      <header className="border-b border-border bg-background  sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">P</span>
-            </div>
             <div>
-              <h1 className="text-2xl font-bold text-foreground">PathAI</h1>
+              <h1 className="text-2xl font-bold text-blue-500">PathAI</h1>
               <p className="text-xs text-muted-foreground">Pathfinding Visualization & Optimization</p>
             </div>
           </div>

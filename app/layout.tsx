@@ -8,9 +8,8 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "PathAI - Pathfinding Visualization & Optimization",
-  description: "Interactive pathfinding algorithm visualization with ML-driven optimization",
-  generator: "v0.app",
+  title: "PathAI",
+
 }
 
 export default function RootLayout({
