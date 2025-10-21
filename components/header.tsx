@@ -5,9 +5,9 @@ import { useState } from "react"
 export function Header() {
   const [showDocModal, setShowDocModal] = useState(false)
 
-  const handleGitHub = () => {
-    window.open("https://github.com/yourusername/pathai", "_blank")
-  }
+  // const handleGitHub = () => {
+  //   window.open("https://github.com/yourusername/pathai", "_blank")
+  // }
 
   const handleDocumentation = () => {
     setShowDocModal(true)
@@ -27,16 +27,16 @@ export function Header() {
           <div className="flex items-center gap-4">
             <button
               onClick={handleDocumentation}
-              className="px-4 py-2 rounded-lg bg-muted text-muted-foreground hover:bg-muted/80 transition-colors text-sm font-medium"
+              className="px-4 py-2 rounded-lg bg-muted text-white hover:bg-muted/80 transition-colors text-sm font-medium"
             >
               Documentation
             </button>
-            <button
+            {/* <button
               onClick={handleGitHub}
               className="px-4 py-2 rounded-lg bg-primary text-primary-foreground hover:bg-primary/90 transition-colors text-sm font-medium"
             >
               GitHub
-            </button>
+            </button> */}
           </div>
         </div>
       </header>
