@@ -2,6 +2,22 @@
 
 An interactive web-based platform for visualizing and optimizing pathfinding algorithms with ML-driven recommendations.
 
+
+---
+
+## 📸 Screenshots
+
+![](https://github.com/Akash-code-0-1/SortViz/blob/c292f5f4828488928ae664b494cb88732b9adc56/image.png)
+![](https://github.com/Akash-code-0-1/SortViz/blob/9ebbcb91ba7d773c0d8e0d802e2c5b99730f6898/2.PNG)
+![](https://github.com/Akash-code-0-1/SortViz/blob/9ebbcb91ba7d773c0d8e0d802e2c5b99730f6898/3.PNG)
+![](https://github.com/Akash-code-0-1/SortViz/blob/9ebbcb91ba7d773c0d8e0d802e2c5b99730f6898/4.PNG)
+![](https://github.com/Akash-code-0-1/SortViz/blob/9ebbcb91ba7d773c0d8e0d802e2c5b99730f6898/5.PNG)
+![](https://github.com/Akash-code-0-1/SortViz/blob/9ebbcb91ba7d773c0d8e0d802e2c5b99730f6898/6.PNG)
+![](https://github.com/Akash-code-0-1/SortViz/blob/9ebbcb91ba7d773c0d8e0d802e2c5b99730f6898/7.PNG)
+
+
+---
+
 ## Features
 
 - **6 Pathfinding Algorithms**: A*, Dijkstra, BFS, DFS, Greedy Best-First, D* Lite
@@ -142,14 +158,6 @@ The ensemble ML model combines three algorithms:
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-MIT License - see LICENSE file for details
-
-## Author
-
-Created with ❤️ for pathfinding enthusiasts
 
 ## Support
 
