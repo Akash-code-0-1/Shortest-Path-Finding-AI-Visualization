@@ -2,7 +2,6 @@
 
 An interactive web-based platform for visualizing and optimizing pathfinding algorithms with ML-driven recommendations.
 
-
 ---
 
 ## 📸 Screenshots
@@ -153,7 +152,6 @@ The ensemble ML model combines three algorithms:
 - **Nodes Expanded**: Number of nodes evaluated
 - **Path Cost**: Total cost of the path (considering terrain weights)
 - **Path Length**: Number of cells in the path
-
 
 ## Contributing
 
